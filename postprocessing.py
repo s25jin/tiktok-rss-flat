@@ -14,9 +14,9 @@ api = TikTokApi.get_instance()
 count = 10
 
 with open('subscriptions.csv') as f:
-    cf = csv.DictReader(f, fieldnames=['username'])
+    cf = csv.DictReader(f, fieldnames=['lqkg685841'])
     for row in cf:
-        user = row['username']
+        user = row['lqkg685841']
 
         print (user)
 
